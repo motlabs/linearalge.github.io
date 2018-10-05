@@ -1,0 +1,99 @@
+# # #
+#   알쓸선잡 Blog    #
+# # #
+
+# Basic
+name:               "알쓸선잡 블로그 :-)"
+
+authors:
+  jwkang:
+    nickname: Jaewook Kang
+    fullname: 강재욱
+    description: >
+     MoTLab에서 모바일 환경을 위한 **신호처리**와 **머신러닝**을 연구합니다.<br>
+     최근에는 [TensorFlowLite](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite) + Convolutional Neural Net에 빠져 있습니다.<br>
+     집에서는 볶음밥 레시피를 연구합니다 :-)
+    gravatar: d79c5efc1cfbc982f00b38d3290ef97c #you can obtain your gravatar hash code from http://www.miraclesalad.com/webtools/md5.php. This site translate your email to a hashcodes.
+    email: jwkang10@gmail.com
+    github: jwkanggist
+    facebook: https://www.facebook.com/jwkkang
+
+#    penname:
+#    nickname: yourname
+#    fullname: yournick name
+#    description: Introduce yourself
+#    gravatar: d79c5efc1cfbc982f00b38d3290ef97c #you can obtain your gravatar hash code from http://www.miraclesalad.com/webtools/md5.php. This site translate your email to a hashcodes.
+#    email: youremail@xxx.com
+#    github: your githubid
+#    facebook: yourfacebook
+
+
+copyright:
+  year:             2018
+  name:             알쓸선잡
+
+# Google-analytics
+google-analytics:
+  id:               "UA-120661930-1"
+
+# Disqus
+disqus:
+  id:               "linearalge-github-io"
+
+# URL
+url:                "https://linearalge.github.io/" # the base hostname & protocol for your site
+# url:                "http://localhost:4000" # use this url when you develop
+#baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Seoul
+permalink:          /:year-:month-:day/:title/
+
+# Pagination
+paginate:           5
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
+kramdown:
+  input:            GFM
+
+# Navigation
+nav:
+#  - name:           "About"
+#    url:            "/about"
+#  - name:           "Archive"
+#    url:            "/archive"
+#  - name:           "Tags"
+#    url:            "/tags"
+#  - name:           "motlabs github link"
+#    url:            "https://github.com/motlabs/"
+
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-admin
+
+exclude:            [vendor]
