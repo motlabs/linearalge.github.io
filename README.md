@@ -1,4 +1,4 @@
-# linearalge.github.io/
+# Readme for linearalge.github.io
 
 📚 [GitHub Pages](https://pages.github.com/) powered [linearalge](https://motlabs.github.io/linearalge.github.io/) Blog, with [Jekyll](http://jekyllrb.com) and [Kiko-plus](https://aweekj.github.io/Kiko-plus/)
 
