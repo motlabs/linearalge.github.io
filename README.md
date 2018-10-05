@@ -1,6 +1,6 @@
-# motlabs.github.io
+# linearalge.github.io/
 
-📚 [GitHub Pages](https://pages.github.com/) powered [motlabs](https://github.com/motlabs) Blog, with [Jekyll](http://jekyllrb.com) and [Kiko-plus](https://aweekj.github.io/Kiko-plus/)
+📚 [GitHub Pages](https://pages.github.com/) powered [linearalge](https://motlabs.github.io/linearalge.github.io/) Blog, with [Jekyll](http://jekyllrb.com) and [Kiko-plus](https://aweekj.github.io/Kiko-plus/)
 
 
 ## Getting Started (on MacOS)
@@ -36,24 +36,25 @@ workspace$ rvm use ruby-2.x.x --default
 #### 4. Clone Repository
 
 ```bash
-workspace$ git clone https://github.com/motlabs/motlabs.github.io.git
+workspace$ git clone https://github.com/motlabs/linearalge.github.io
 ```
 
 #### 5. Serve
 
 ```bash
-workspace$ cd motlabs.github.io/
+workspace$ cd linearalge.github.io
 workspace/blog$ jekyll serve
 ```
 
 ```bash
-Configuration file: workspace/motlabs.github.io/_config.yml
-            Source: workspace/motlabs.github.io
-       Destination: workspace/motlabs.github.io/_site
+Configuration file: workspace/linearalge.github.io/_config.yml
+            Source: workspace/linearalge.github.io
+       Destination: workspace/linearalge.github.io/_site
  Incremental build: disabled. Enable with --incremental
-      Generating...
-                    done in 0.408 seconds.
- Auto-regeneration: enabled for 'workspace/motlabs.github.io'
+      Generating... 
+                    done in 0.371 seconds.
+ Auto-regeneration: enabled for 'workspace/linearalge.github.io'
+  JekyllAdmin mode: production
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
@@ -83,26 +84,26 @@ gem install jekyll-seo-tag
 Run **Git Bash** app, and type the following command.
 
 ```bash
-git clone https://github.com/motlabs/motlabs.github.io.git
+git clone https://github.com/motlabs/linearalge.github.io
 ```
 
 #### 4. Serve
 Run **Start Command Prompt with Ruby** app, and type the following command.
 
 ```bash
-cd motlabs.github.io/
+cd linearalge.github.io
 jekyll serve
 ```
 ```bash
-Configuration file: D:/motlabs.github.io/_config.yml
-            Source: D:/motlabs.github.io
-       Destination: D:/motlabs.github.io/_site
+Configuration file: D:/linearalge.github.io/_config.yml
+            Source: D:/linearalge.github.io
+       Destination: D:/linearalge.github.io/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
                     done in 0.881 seconds.
   Please add the following to your Gemfile to avoid polling for changes:
     gem 'wdm', '>= 0.1.0' if Gem.win_platform?
- Auto-regeneration: enabled for 'D:/motlabs.github.io'
+ Auto-regeneration: enabled for 'D:/linearalge.github.io'
   JekyllAdmin mode: production
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
@@ -128,7 +129,7 @@ Configuration file: D:/motlabs.github.io/_config.yml
 
 4. After PR Review and final checking, post will be merged into `master` branch
 
-5. [Jekyll](http://jekyllrb.com) will automatically compile blog into [https://motlabs.github.io/](https://motlabs.github.io/)
+5. [Jekyll](http://jekyllrb.com) will automatically compile blog into [https://motlabs.github.io/linearalge.github.io/](https://motlabs.github.io/linearalge.github.io/)
 
 ## Troubleshooting
 
